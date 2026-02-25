@@ -1,0 +1,3 @@
+Sure, I can guide you through that process.
+
+[{"name": "prometheus.health_check", "arguments": {}}]

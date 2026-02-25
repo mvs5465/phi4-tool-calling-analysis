@@ -1,0 +1,16 @@
+{
+  "model": "phi4-mini:latest",
+  "created_at": "2026-02-25T02:09:38.286502Z",
+  "message": {
+    "role": "assistant",
+    "content": "To execute the `prometheus.health_check` function with immediate status, we don't need to pass any parameters as it's a health check for container monitoring and doesn't require additional inputs.\n\n```javascript\nconst result = await promql.functions.execute(\"health_check\");\n```\n\nPlease run this in your JavaScript environment that supports PromQL queries. The above code will execute the `prometheus.health_check` function immediately, returning only its status without further details or time range requirements."
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 3262175250,
+  "load_duration": 77407958,
+  "prompt_eval_count": 362,
+  "prompt_eval_duration": 101269500,
+  "eval_count": 94,
+  "eval_duration": 2996551042
+}

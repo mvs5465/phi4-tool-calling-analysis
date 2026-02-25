@@ -1,0 +1,16 @@
+{
+  "model": "phi4-mini:latest",
+  "created_at": "2026-02-25T01:57:01.60533Z",
+  "message": {
+    "role": "assistant",
+    "content": "Sure, I will call the `prometheus.health_check` function for you. This is how it's done:\n\n```javascript\nlet result = prometheus.health_check({});\nconsole.log(result);\n```\n\nPlease note that this action assumes you're running in an environment where these functions are defined and accessible.\n\nThe `{}` object passed as a parameter to the health check endpoint represents no specific parameters, which means it will return all possible settings for Prometheus container monitoring. If you want to specify any particular setting (like disabling certain services), please let me know!"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 3987898792,
+  "load_duration": 85025375,
+  "prompt_eval_count": 364,
+  "prompt_eval_duration": 109978875,
+  "eval_count": 110,
+  "eval_duration": 3697135219
+}

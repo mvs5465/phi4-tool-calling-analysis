@@ -1,0 +1,10 @@
+# Generated files
+*.tmp
+.DS_Store
+
+# Test artifacts
+test-output/
+*.log
+
+# Optional local notes
+local-notes.md

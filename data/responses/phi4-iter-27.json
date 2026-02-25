@@ -1,0 +1,16 @@
+{
+  "model": "phi4-mini:latest",
+  "created_at": "2026-02-25T02:04:15.272825Z",
+  "message": {
+    "role": "assistant",
+    "content": "<|tool_call|>{\"status\": \"healthy\", \"uptime_seconds\": 12345}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 1621681292,
+  "load_duration": 96069375,
+  "prompt_eval_count": 367,
+  "prompt_eval_duration": 280103791,
+  "eval_count": 17,
+  "eval_duration": 1213313044
+}

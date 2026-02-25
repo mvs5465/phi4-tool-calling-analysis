@@ -1,0 +1,9 @@
+Sure, I will initiate a health check for your containerized application that uses Prometheus.
+
+```json
+{
+  "action": "prometheus.health_check"
+}
+```
+
+Please wait while I perform this action. Once completed, you should receive an indication of the application's current status and any potential issues with its monitoring setup.

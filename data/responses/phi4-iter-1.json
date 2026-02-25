@@ -1,0 +1,16 @@
+{
+  "model": "phi4-mini:latest",
+  "created_at": "2026-02-25T01:56:40.80272Z",
+  "message": {
+    "role": "assistant",
+    "content": "[{\"type\":\"function\",\"function\":{\"name\":\"prometheus.health_check\",\"arguments\":{\"}}}]<|/tool_call|><|tool_call|>Could you please execute a range query for CPU usage metrics from 2021-01-01 to 2021-12-31 with hourly intervals using your time series database toolset?"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 2593239333,
+  "load_duration": 122388042,
+  "prompt_eval_count": 362,
+  "prompt_eval_duration": 422807875,
+  "eval_count": 60,
+  "eval_duration": 1969609585
+}

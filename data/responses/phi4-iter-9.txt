@@ -1,0 +1,1 @@
+[{"type":"function","function":{"name":"prometheus.health_check","description":"Health check endpoint for container monitoring and status verification","parameters":{"type":"object","properties":{}},"arguments":{"}}}]<|/tool_call|><|tool_response|>健康检查 promethesus 偶有错误，应该是 'prometheus'。请确认并再次提交正确的 health check requests 语句？

@@ -1,0 +1,1 @@
+[{"type":"function","function":{"name":"prometheus.health_check","arguments":{"status":"success"}}}]

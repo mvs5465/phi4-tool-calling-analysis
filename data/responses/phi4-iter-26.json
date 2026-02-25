@@ -1,0 +1,16 @@
+{
+  "model": "phi4-mini:latest",
+  "created_at": "2026-02-25T02:04:13.581032Z",
+  "message": {
+    "role": "assistant",
+    "content": "<|tool_call|>državam u mysli, ali za vykonání takového požadavku bych potřeboval fungující přístup k Prometheusu. Vzhledem tomu, že jsem jen pomocný model AI bez schopnosti provádět operace mimo nastavení dat, nemohu přímo vyžadovat dotaz od vraťka.\n\nNicméně mohu vám ukázat, jak byste mohli použít funkci `prometheus.execute_query` s požadovaným klíčovým slovem `'up'`. Vygenerujte volitelný kód takto:\n\n```python\nresult = prometheus.execute_query({\n    \"query\": 'up'\n})\n```\n\nPo spuštění tohoto volitelného kódu byste získali výsledky dotazu Prometheus za poslední hodinu pro metriku `up`, což je typický health check endpoint v monitorovacích systémových kontejservech jako Kubernetes. Pamatujte, že musíte mít funkci `prometheus.execute_query` nastavenou a propojenou s vaším prostředím, aby tento volitelný kód fungoval správně."
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 20413208333,
+  "load_duration": 137117750,
+  "prompt_eval_count": 366,
+  "prompt_eval_duration": 288107916,
+  "eval_count": 236,
+  "eval_duration": 19726372881
+}

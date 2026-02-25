@@ -1,0 +1,16 @@
+{
+  "model": "phi4-mini:latest",
+  "created_at": "2026-02-25T02:00:02.37749Z",
+  "message": {
+    "role": "assistant",
+    "content": "[{\"type\":\"function\",\"function\":{\"name\":\"prometheus.health_check\",\"arguments\":{\"statusCode\":200,\"body\":[\"OK\"]},\"result\":\"success\"}]}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 1263603708,
+  "load_duration": 77590083,
+  "prompt_eval_count": 367,
+  "prompt_eval_duration": 110706792,
+  "eval_count": 33,
+  "eval_duration": 1051069039
+}

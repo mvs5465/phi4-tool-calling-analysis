@@ -1,0 +1,16 @@
+{
+  "model": "phi4-mini:latest",
+  "created_at": "2026-02-25T01:57:12.85565Z",
+  "message": {
+    "role": "assistant",
+    "content": "Sure, I can guide you through that process.\n\n[{\"name\": \"prometheus.health_check\", \"arguments\": {}}]"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 1500648834,
+  "load_duration": 185031875,
+  "prompt_eval_count": 382,
+  "prompt_eval_duration": 141531166,
+  "eval_count": 27,
+  "eval_duration": 1085239997
+}

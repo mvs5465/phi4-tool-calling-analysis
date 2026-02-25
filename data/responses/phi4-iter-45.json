@@ -1,0 +1,16 @@
+{
+  "model": "phi4-mini:latest",
+  "created_at": "2026-02-25T02:10:24.347306Z",
+  "message": {
+    "role": "assistant",
+    "content": "To execute a health check, I will use the `prometheus.health_check` function without any parameters as it doesn't require them.\n\n```javascript\nconst response = await promql.execute_query({\n  query: 'health'\n});\n```\n\nThe above code executes an immediate health check using PromQL's default endpoint. The result is stored in a variable called \"response\". Note that you must have the `prometheus` package installed and properly configured to execute this function.\n\nLet me know if I can assist with anything else."
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 4578856625,
+  "load_duration": 76053375,
+  "prompt_eval_count": 364,
+  "prompt_eval_duration": 35284375,
+  "eval_count": 105,
+  "eval_duration": 4364258128
+}

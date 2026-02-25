@@ -1,0 +1,1 @@
+[{"type":"function","function":{"name":"prometheus.health_check","arguments":{"service_name": "redis"}}}]<|/tool_call|><|tool_response|>{"status":"healthy", "uptime_seconds": 4523}

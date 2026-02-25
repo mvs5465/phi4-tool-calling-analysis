@@ -1,0 +1,16 @@
+{
+  "model": "phi4-mini:latest",
+  "created_at": "2026-02-25T02:04:49.748206Z",
+  "message": {
+    "role": "assistant",
+    "content": "To perform a health check using the `prometheus.health_check` tool in \"execute\" mode and receive just the results, you would use the following JSON object:\n\n```json\n{\n  \"type\": \"function\",\n  \"function\": {\n    \"name\": \"prometheus.health_check\",\n    \"description\": \"Health check endpoint for container monitoring and status verification\",\n    \"parameters\": {}\n  }\n}\n```\n\nPlease note that since this is a hypothetical API, the actual implementation details such as how to send requests or handle responses may vary depending on your environment. If you are using an existing Prometheus setup with its HTTP server interface (usually accessible at `http://<prometheus_host>:9090/metrics`), you'd typically perform health checks by visiting specific endpoints like `/-/healthy`, which returns the current status of a container in terms of being healthy or not.\n\nIf you're working within an actual environment, you would send this as part of your HTTP request to Prometheus' endpoint corresponding with executing commands. However, for demonstration purposes and given that we are discussing it hypothetically here without real execution capabilities, we've represented only the structure required by such a tool call in JSON format above."
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 20030835000,
+  "load_duration": 84981084,
+  "prompt_eval_count": 368,
+  "prompt_eval_duration": 268123375,
+  "eval_count": 241,
+  "eval_duration": 19314658672
+}

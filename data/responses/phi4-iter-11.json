@@ -1,0 +1,16 @@
+{
+  "model": "phi4-mini:latest",
+  "created_at": "2026-02-25T01:59:59.165382Z",
+  "message": {
+    "role": "assistant",
+    "content": "To execute a health check for Prometheus, I will use the `health_check` function. Here is how you can invoke it:\n\n```json\n{\n  \"type\": \"function\",\n  \"function\": {\n    \"name\": \"prometheus.health_check\",\n    \"description\": \"Health check endpoint for container monitoring and status verification\"\n  }\n}\n```\n\nPlease execute this JSON payload to perform the health check. Once completed, I will provide you with only the result of that operation."
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 3547710125,
+  "load_duration": 80332625,
+  "prompt_eval_count": 365,
+  "prompt_eval_duration": 137023917,
+  "eval_count": 100,
+  "eval_duration": 3249822454
+}

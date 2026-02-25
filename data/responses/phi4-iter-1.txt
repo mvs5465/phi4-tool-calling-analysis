@@ -1,0 +1,1 @@
+[{"type":"function","function":{"name":"prometheus.health_check","arguments":{"}}}]<|/tool_call|><|tool_call|>Could you please execute a range query for CPU usage metrics from 2021-01-01 to 2021-12-31 with hourly intervals using your time series database toolset?

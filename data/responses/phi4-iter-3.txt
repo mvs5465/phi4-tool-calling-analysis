@@ -1,0 +1,10 @@
+Sure, I will call the `prometheus.health_check` function for you. This is how it's done:
+
+```javascript
+let result = prometheus.health_check({});
+console.log(result);
+```
+
+Please note that this action assumes you're running in an environment where these functions are defined and accessible.
+
+The `{}` object passed as a parameter to the health check endpoint represents no specific parameters, which means it will return all possible settings for Prometheus container monitoring. If you want to specify any particular setting (like disabling certain services), please let me know!
